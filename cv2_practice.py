@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 import cv2
 import numpy as np
+import http
+import base64
 image = cv2.imread('/home/pykid/Desktop/test1.jpeg')
 image1 = cv2.imread('/home/pykid/Desktop/test2.jpeg')
 output1 = cv2.add(image1,image)
